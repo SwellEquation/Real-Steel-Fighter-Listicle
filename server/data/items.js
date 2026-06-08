@@ -54,6 +54,17 @@ const items = [
     year: 1984,
     rating: '9.6/10',
   },
+  {
+    id: 6,
+    slug: 'red-dead-redemption-2',
+    title: 'Red Dead Redemption 2',
+    description: 'A sweeping open-world western that delivers an unmatched cinematic narrative experience.',
+    image: 'https://placehold.co/400x300?text=Red+Dead+Redemption+2',
+    genre: 'Action-Adventure',
+    developer: 'Rockstar Games',
+    year: 2018,
+    rating: '9.7/10',
+  },
 ];
 
 export default items;
