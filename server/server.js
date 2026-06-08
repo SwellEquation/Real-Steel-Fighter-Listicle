@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
   res.send(renderIndex(items));
 });
 
-app.use('/games', itemsRouter);
+app.use('/fighters', itemsRouter);
 
 app.use((req, res) => {
   res.status(404).send(render404());

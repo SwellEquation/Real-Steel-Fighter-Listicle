@@ -15,7 +15,7 @@ export function wrapLayout(title, body) {
     <header class="container">
       <nav>
         <ul>
-          <li><strong><a href="/" class="contrast">🎮 Listicle</a></strong></li>
+          <li><a href="/"><img src="/realsteel.png" alt="Listicle" style="height:80px;" /></a></li>
         </ul>
       </nav>
     </header>
@@ -23,7 +23,7 @@ export function wrapLayout(title, body) {
       ${body}
     </main>
     <footer class="container">
-      <small>Classic Video Games &mdash; Listicle Project</small>
+      <small>Real Steel Fighters - Listicle Project</small>
     </footer>
   </body>
 </html>`;

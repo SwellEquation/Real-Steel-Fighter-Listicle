@@ -10,7 +10,7 @@ export function renderIndex(items) {
           <h2>${item.title}</h2>
           <p class="card-meta"><small>${item.genre} &bull; ${item.year}</small></p>
           <p>${item.description}</p>
-          <a href="/games/${item.slug}" role="button">Info</a>
+          <a href="/fighters/${item.slug}" role="button">Info</a>
         </div>
       </article>`
     )
@@ -18,8 +18,8 @@ export function renderIndex(items) {
 
   const body = `
     <hgroup>
-      <h1>Classic Video Games</h1>
-      <p>A curated list of the greatest video games ever made.</p>
+      <h1>Real Steel Fighters</h1>
+      <p>A list of some of Real Steels greatest robot boxers!</p>
     </hgroup>
     <div class="card-grid">
       ${cards}

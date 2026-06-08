@@ -2,13 +2,17 @@ const items = [
   {
     id: 1,
     slug: 'super-mario-64',
-    title: 'Super Mario 64',
+    title: 'Test',
     description: 'The groundbreaking 3D platformer that redefined an entire genre.',
     image: 'https://placehold.co/400x300?text=Super+Mario+64',
     genre: 'Platformer',
     developer: 'Nintendo EAD',
     year: 1996,
     rating: '9.8/10',
+    country: 'USA',
+    nicknames: 'The Plumber',
+    bottype: 'Control',
+    status: 'Active',
   },
   {
     id: 2,
@@ -20,6 +24,10 @@ const items = [
     developer: 'Nintendo EAD',
     year: 1998,
     rating: '10/10',
+    country: 'Japan',
+    nicknames: 'Hero of Time',
+    bottype: 'Balanced',
+    status: 'Active',
   },
   {
     id: 3,
@@ -31,6 +39,10 @@ const items = [
     developer: 'Valve Corporation',
     year: 2004,
     rating: '9.7/10',
+    country: 'USA',
+    nicknames: 'The Freeman',
+    bottype: 'Brawler',
+    status: 'Active',
   },
   {
     id: 4,
@@ -42,6 +54,10 @@ const items = [
     developer: 'Team Ico',
     year: 2005,
     rating: '9.5/10',
+    country: 'Japan',
+    nicknames: 'Wanderer',
+    bottype: 'Assault',
+    status: 'Retired',
   },
   {
     id: 5,
@@ -53,6 +69,10 @@ const items = [
     developer: 'Alexey Pajitnov',
     year: 1984,
     rating: '9.6/10',
+    country: 'Russia',
+    nicknames: 'Block Master',
+    bottype: 'Defense',
+    status: 'Active',
   },
   {
     id: 6,
@@ -64,6 +84,10 @@ const items = [
     developer: 'Rockstar Games',
     year: 2018,
     rating: '9.7/10',
+    country: 'USA',
+    nicknames: 'Outlaw King',
+    bottype: 'Power',
+    status: 'Active',
   },
 ];
 

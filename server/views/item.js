@@ -11,14 +11,14 @@ export function renderItem(item) {
           <p>${item.description}</p>
         </hgroup>
         <dl>
-          <dt>Genre</dt>
-          <dd>${item.genre}</dd>
-          <dt>Developer</dt>
-          <dd>${item.developer}</dd>
-          <dt>Year</dt>
-          <dd>${item.year}</dd>
-          <dt>Rating</dt>
-          <dd>${item.rating}</dd>
+          <dt>Country</dt>
+          <dd>${item.country}</dd>
+          <dt>Nicknames</dt>
+          <dd>${item.nicknames}</dd>
+          <dt>Bot Type</dt>
+          <dd>${item.bottype}</dd>
+          <dt>Status</dt>
+          <dd>${item.status}</dd>
         </dl>
       </div>
     </article>`;
