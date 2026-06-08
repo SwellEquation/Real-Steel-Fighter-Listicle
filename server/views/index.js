@@ -4,12 +4,11 @@ export function renderIndex(items) {
   const cards = items
     .map(
       (item) => `
-      <article class="game-card">
+      <article class="card">
         <img src="${item.image}" alt="${item.title}" />
         <div class="card-body">
           <h2>${item.title}</h2>
-          <p class="card-meta"><small>${item.genre} &bull; ${item.year}</small></p>
-          <p>${item.description}</p>
+          <p class="card-meta"><small>${item.country}</small></p>
           <a href="/fighters/${item.slug}" role="button">Info</a>
         </div>
       </article>`
@@ -17,13 +16,17 @@ export function renderIndex(items) {
     .join('');
 
   const body = `
-    <hgroup>
-      <h1>Real Steel Fighters</h1>
-      <p>A list of some of Real Steels greatest robot boxers!</p>
-    </hgroup>
-    <div class="card-grid">
-      ${cards}
-    </div>`;
+    <section class="home-layout">
+      <hgroup class="intro-block">
+        <h1 class="main-title">Real Steel Fighters</h1>
+        <p class="main-desc">A list of some of Real Steels greatest robot boxers!</p>
+      </hgroup>
+      <section class="card-panel">
+        <div class="card-grid">
+          ${cards}
+        </div>
+      </section>
+    </section>`;
 
-  return wrapLayout('Classic Video Games', body);
+  return wrapLayout('WRB Fighters', body);
 }
