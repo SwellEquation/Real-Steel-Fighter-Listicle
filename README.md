@@ -1,8 +1,8 @@
-# WEB103 Project 1 - *Real Steel Figher Listicle*
+# WEB103 Project 2 - *Real Steel Figher Listicle*
 
 Submitted by: **Fabian Roman**
 
-About this web app: **This web application shows a list of some of Real Steels best robot fighters! Using Express as a backend and Pico CSS for styling, it features a card based list that expands to reveal attribute about the bot, including a fighter description, country of origin, and any nicknames.**
+About this web app: **This web application displays a list of some of Real Steels best robot fighters! Using Express as a backend and Pico CSS for styling, it features a card based list that expands to reveal attribute about the bot, including a fighter description, country of origin, and any nicknames. The app is connected to a PostgreSQL database and utilizes a structured database table for the list items.**
 
 Time spent: **3** hours
 
@@ -12,22 +12,17 @@ The following **required** functionality is completed:
 
 <!-- Make sure to check off completed functionality below -->
 - [x] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
-- [x] **The web app displays a title**
-- [x] **The web app displays at least five unique list items, each with at least three displayed attributes (such as title, text, and image)**
-- [x] **The user can click on each item in the list to see a detailed view of it, including all database fields**
-  - [x] **Each detail view should be a unique endpoint, such as as `localhost:3000/bosses/crystalguardian` and `localhost:3000/mantislords`**
-  - [x] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
-- [x] **The web app serves an appropriate 404 page when no matching route is defined**
-- [x] **The web app is styled using Picocss**
+- [x] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items**
+  - [x] **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
+  - [x]  **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT * FROM tablename;' to display your table contents.**
 
 The following **optional** features are implemented:
 
-- [x] The web app displays items in a unique format, such as cards rather than lists or animated list items
+- [ ] The user can search for items by a specific attribute
 
 The following **additional** features are implemented:
 
-- [x] List anything else that you added to improve the site's functionality!
-- [x] A stylized 404 page is used, consistent with the theming of the home page rather than a plaintext 404 message.
+- [ ] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 
@@ -41,10 +36,6 @@ GIF created with freeconvert.com
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
-
-## Notes
-
-Describe any challenges encountered while building the app or any additional context you'd like to add.
 
 ## License
 
