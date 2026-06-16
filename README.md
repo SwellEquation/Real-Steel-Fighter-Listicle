@@ -28,7 +28,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-![Walkthrough](https://github.com/SwellEquation/Real-Steel-Fighter-Listicle/blob/main/showcase.gif)
+![Walkthrough](https://github.com/SwellEquation/Real-Steel-Fighter-Listicle/blob/main/Walkthrough1.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with freeconvert.com
