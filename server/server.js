@@ -1,6 +1,7 @@
 import express from 'express';
+import './config/dotenv.js';
 import itemsRouter from './routes/items.js';
-import items from './data/items.js';
+import { getAllItems } from './controllers/items.js';
 import { renderIndex } from './views/index.js';
 import { render404 } from './views/404.js';
 
@@ -8,7 +9,8 @@ const app = express();
 
 app.use(express.static('./public'));
 
-app.get('/', (req, res) => {
+app.get('/', async (req, res) => {
+  const items = await getAllItems();
   res.send(renderIndex(items));
 });
 
